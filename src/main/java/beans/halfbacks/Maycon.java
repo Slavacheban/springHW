@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component("maycon")
 @Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class Maycon implements HalfBack {
-    private static Logger LOGGER = Logger.getLogger(Maycon.class.getName());
+    private static final Logger LOGGER = Logger.getLogger(Maycon.class.getName());
 
     public void pass() {
         LOGGER.info("long pass from Maycon");

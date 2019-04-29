@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component("srna")
 @Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class Srna implements Back {
-    private static Logger LOGGER = Logger.getLogger(Srna.class.getName());
+    private static final Logger LOGGER = Logger.getLogger(Srna.class.getName());
 
     public void back() {
         LOGGER.info("back as Srna");

@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Component("facundo")
 @Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class Facundo implements Forvard {
-    private static Logger LOGGER = Logger.getLogger(Isma.class.getName());
+    private static final Logger LOGGER = Logger.getLogger(Isma.class.getName());
 
     public void goal() {
         LOGGER.info("goal from Facundo");

@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component("adriano")
 @Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class Adriano implements Forvard {
-    private static Logger LOGGER = Logger.getLogger(Adriano.class.getName());
+    private static final Logger LOGGER = Logger.getLogger(Adriano.class.getName());
 
     public void goal() {
         LOGGER.info("goal from Adriano");

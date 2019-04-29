@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component("piat")
 @Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class Piat implements Goalkeeper {
-    private static Logger LOGGER = Logger.getLogger(Piat.class.getName());
+    private static final Logger LOGGER = Logger.getLogger(Piat.class.getName());
 
     public void keep() {
         LOGGER.info("keep as Piatov");

@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component("boyko")
 @Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class Boyko implements Goalkeeper {
-    private static Logger LOGGER = Logger.getLogger(Boyko.class.getName());
+    private static final Logger LOGGER = Logger.getLogger(Boyko.class.getName());
 
     public void keep() {
         LOGGER.info("keep as Boyko");

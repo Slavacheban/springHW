@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component("silva")
 @Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class Silva implements HalfBack {
-    private static Logger LOGGER = Logger.getLogger(Silva.class.getName());
+    private static final Logger LOGGER = Logger.getLogger(Silva.class.getName());
 
     public void pass() {
         LOGGER.info("pass from Silva");

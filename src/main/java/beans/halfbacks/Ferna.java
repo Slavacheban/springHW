@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component("ferna")
 @Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class Ferna implements HalfBack {
-    private static Logger LOGGER = Logger.getLogger(Ferna.class.getName());
+    private static final Logger LOGGER = Logger.getLogger(Ferna.class.getName());
 
     public void pass() {
         LOGGER.info("pass from Ferna");

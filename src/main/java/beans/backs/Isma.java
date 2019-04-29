@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component("isma")
 @Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class Isma implements Back {
-    private static Logger LOGGER = Logger.getLogger(Isma.class.getName());
+    private static final Logger LOGGER = Logger.getLogger(Isma.class.getName());
 
     public void back() {
         LOGGER.info("back as Isma");

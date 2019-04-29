@@ -7,6 +7,7 @@ import beans.halfbacks.HalfBack;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,11 +24,12 @@ import javax.annotation.PreDestroy;
 @Component
 @NoArgsConstructor
 @AllArgsConstructor
+@RequiredArgsConstructor
 @Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class DinamoKyev implements FootballClub {
-    private static Logger LOGGER = Logger.getLogger(ShakhtarDonetsk.class.getName());
+    private static final Logger LOGGER = Logger.getLogger(ShakhtarDonetsk.class.getName());
     @Autowired
-    @Qualifier("piatov")
+    @Qualifier("piat")
     private Goalkeeper goalkeeper;
     @Autowired
     @Qualifier("srna")

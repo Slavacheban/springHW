@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component("ramos")
 @Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class Ramos implements Back {
-    private static Logger LOGGER = Logger.getLogger(Ramos.class.getName());
+    private static final Logger LOGGER = Logger.getLogger(Ramos.class.getName());
 
     public void back() {
         LOGGER.info("back as Ramos");
