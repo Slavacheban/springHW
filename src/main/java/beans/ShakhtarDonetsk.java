@@ -25,6 +25,7 @@ import javax.annotation.PreDestroy;
 @RequiredArgsConstructor
 public class ShakhtarDonetsk implements FootballClub {
     private static final Logger LOGGER = Logger.getLogger(ShakhtarDonetsk.class.getName());
+
     @Autowired
     @Qualifier("boyko")
     private Goalkeeper goalkeeper;

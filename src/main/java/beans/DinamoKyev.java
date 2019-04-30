@@ -28,6 +28,7 @@ import javax.annotation.PreDestroy;
 @Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class DinamoKyev implements FootballClub {
     private static final Logger LOGGER = Logger.getLogger(ShakhtarDonetsk.class.getName());
+
     @Autowired
     @Qualifier("piat")
     private Goalkeeper goalkeeper;

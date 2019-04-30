@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25b86535-6be8-426c-928e-c3d3d2bdc45e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/springHW.iml" afterPath="$PROJECT_DIR$/springHW.iml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Application.java" afterPath="$PROJECT_DIR$/src/main/java/Application.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/beans/DinamoKyev.java" afterPath="$PROJECT_DIR$/src/main/java/beans/DinamoKyev.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/beans/ShakhtarDonetsk.java" afterPath="$PROJECT_DIR$/src/main/java/beans/ShakhtarDonetsk.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beans/backs/Isma.java" afterPath="$PROJECT_DIR$/src/main/java/beans/backs/Isma.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beans/backs/Ramos.java" afterPath="$PROJECT_DIR$/src/main/java/beans/backs/Ramos.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beans/backs/Srna.java" afterPath="$PROJECT_DIR$/src/main/java/beans/backs/Srna.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beans/forvards/Adriano.java" afterPath="$PROJECT_DIR$/src/main/java/beans/forvards/Adriano.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beans/forvards/Facundo.java" afterPath="$PROJECT_DIR$/src/main/java/beans/forvards/Facundo.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beans/goalkeepers/Boyko.java" afterPath="$PROJECT_DIR$/src/main/java/beans/goalkeepers/Boyko.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beans/goalkeepers/Piat.java" afterPath="$PROJECT_DIR$/src/main/java/beans/goalkeepers/Piat.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beans/halfbacks/Ferna.java" afterPath="$PROJECT_DIR$/src/main/java/beans/halfbacks/Ferna.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beans/halfbacks/Maycon.java" afterPath="$PROJECT_DIR$/src/main/java/beans/halfbacks/Maycon.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beans/halfbacks/Silva.java" afterPath="$PROJECT_DIR$/src/main/java/beans/halfbacks/Silva.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beans/halfbacks/Taison.java" afterPath="$PROJECT_DIR$/src/main/java/beans/halfbacks/Taison.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,26 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Taison.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/beans/halfbacks/Taison.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Boyko.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/beans/goalkeepers/Boyko.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Piat.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/beans/goalkeepers/Piat.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -113,8 +80,28 @@
       <file leaf-file-name="ShakhtarDonetsk.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/beans/ShakhtarDonetsk.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+            <state relative-caret-position="-361">
+              <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -123,8 +110,8 @@
       <file leaf-file-name="DinamoKyev.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/beans/DinamoKyev.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+            <state relative-caret-position="213">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,7 +145,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springHW.iml" />
-        <option value="$PROJECT_DIR$/src/main/java/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/beans/halfbacks/Ferna.java" />
         <option value="$PROJECT_DIR$/src/main/java/beans/halfbacks/Maycon.java" />
         <option value="$PROJECT_DIR$/src/main/java/beans/halfbacks/Silva.java" />
@@ -170,6 +156,7 @@
         <option value="$PROJECT_DIR$/src/main/java/beans/backs/Isma.java" />
         <option value="$PROJECT_DIR$/src/main/java/beans/backs/Ramos.java" />
         <option value="$PROJECT_DIR$/src/main/java/beans/backs/Srna.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/beans/DinamoKyev.java" />
         <option value="$PROJECT_DIR$/src/main/java/beans/ShakhtarDonetsk.java" />
       </list>
@@ -411,14 +398,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
@@ -439,14 +418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -539,10 +510,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/beans/DinamoKyev.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        <state relative-caret-position="213">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -551,8 +538,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/beans/ShakhtarDonetsk.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        <state relative-caret-position="-361">
+          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
           <folding />
         </state>
       </provider>
